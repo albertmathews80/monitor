@@ -1,0 +1,18 @@
+import React, { Component } from "react";
+import classes from "./ToEdit.module.css"
+import { Link } from "react-router-dom";
+
+const ToEdit = () => {
+  return (
+    <div className="loginMainContainer">
+      <div className="d-flex">
+        <div className="loginLeftContainer">
+          <h1>ToEdit</h1>
+        </div>
+        <div className="loginRightContainer"></div>
+      </div>
+    </div>
+  );
+};
+
+export default ToEdit;

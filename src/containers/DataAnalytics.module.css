@@ -1,0 +1,87 @@
+.addReportContainer {
+  /* min-height: 80vh; */
+}
+.addReportFileDiv {
+  min-height: 150px;
+  min-width: 150px;
+  box-shadow: 0px 0px 5px 2px #ccc;
+  border-radius: 10px;
+}
+.addReportFileDiv,
+.addReportImage {
+  transition: all 0.5s ease;
+}
+.addReportFileDiv:hover {
+  background-color: #655360;
+}
+.addReportFileDiv:hover .addReportImage {
+  transform: scale(1.7);
+}
+.inputDiv {
+  box-shadow: 0 0 5px 0px #666;
+  padding: 0 0 0 20px;
+  /* border-radius: 20px; */
+  border-radius: 7px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  min-width: 286px;
+}
+.inputLabel {
+  color: #875b7c;
+  font-size: 12px;
+  font-weight: 600;
+}
+.datePicker {
+  color: #fff;
+  padding: 0 0 0 20px;
+  background-color: #373633;
+  border-radius: 15px;
+  min-width: 186px;
+}
+.datePicker:focus {
+  outline: none !important;
+}
+.datePicker::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url(./arrowIcon.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+  transform: translateY(5px);
+}
+.customSelect {
+  flex: 1;
+}
+.customSelect select,
+.customSelect::after {
+  height: 40px;
+}
+.customSelect select:focus {
+  outline: none;
+}
+.customSelect select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 0 10px;
+}
+.customSelect::after {
+  content: "\1F847" !important;
+  position: absolute !important;
+  top: 5px !important;
+  right: 29px !important;
+  padding: 0px 14px 18px 4px !important;
+  line-height: 21px !important;
+  border-radius: 50% !important;
+  height: 0px !important;
+  width: 0px !important;
+  transform: translateX(5px) !important;
+  font-size: 12px;
+}
+.solid::after {
+  color: #373633 !important;
+  background: #fff !important;
+}

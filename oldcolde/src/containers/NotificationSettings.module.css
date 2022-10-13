@@ -1,0 +1,230 @@
+.profileImageDiv {
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px #ccc;
+  border-radius: 15px;
+}
+.userNameLabel {
+  color: #52575d;
+  font-size: 20px;
+  font-weight: 600;
+}
+.userTypeLabel {
+  color: #52575d;
+  font-size: 14px;
+}
+.followButton {
+  background-color: #fff;
+  color: #52575d;
+  font-size: 13px;
+  border-radius: 5px;
+  width: 175px;
+  padding: 3px 0px 2px 1px;
+  text-align: center;
+  cursor: pointer;
+  border: solid 1px #52575d;
+}
+.messageButton {
+  background-color: #875b7c;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 5px;
+  width: 175px;
+  padding: 3px 0px 2px 1px;
+  text-align: center;
+  cursor: pointer;
+}
+.tileDiv {
+  /* background-color: #fff;
+  color: #363532;
+  padding: 10px 19px;
+  border-radius: 10px;
+  border: solid 1px #363532; */
+  background-color: #fff;
+  color: #363532;
+  /* padding: 17px 19px; */
+  border-radius: 10px;
+  border: solid 1px #363532;
+  width: 105px;
+  height: 105px;
+}
+.activeTile {
+  background-color: #875b7c !important;
+  color: #fff !important;
+}
+.tileText {
+  font-size: 11px;
+  width: 50px;
+  text-align: center;
+}
+.rightTileText {
+  font-size: 8px;
+  font-weight: 600;
+  width: 65px;
+  text-align: center;
+}
+.textareaDiv {
+  flex: 1;
+}
+.textareaDiv > textarea {
+  resize: none;
+}
+.submitPostDiv {
+  background-color: #c7b8c3;
+  padding: 20px 20px 20px 22px;
+  border-radius: 15px;
+}
+.submitPostIconsDiv {
+  background-color: #fff;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.submitPstButton {
+  flex: 1 1;
+  text-align: center;
+  color: #fff;
+  background-color: #007bff;
+  padding: 7px 0px;
+  border-radius: 7px;
+}
+.postDiv {
+  background-color: #fff;
+  padding: 30px 10px;
+  border-radius: 15px;
+  box-shadow: 0px 1px 5px 0px #ccc;
+}
+.coverImageDiv {
+  min-height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.postHeading {
+  color: #707070;
+  font-size: 20px;
+  font-weight: 600;
+}
+.postPara {
+  color: #707070;
+  font-size: 16px;
+}
+.continueReadingButton {
+  color: #fff;
+  background-color: #875b7c;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 10px;
+}
+.reactionLabel {
+  color: #875b7c;
+  font-size: 11px;
+}
+.socialIconDiv {
+  background-color: #fff;
+  width: 37px;
+  height: 37px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px 0px #888;
+}
+.formDiv {
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px #888;
+  padding: 20px 20px;
+  border-radius: 15px;
+  /* min-height: 70vh; */
+}
+.formHeading {
+  font-size: 17px;
+  font-weight: 600;
+  color: #000;
+}
+.formInput {
+  border-radius: 5px;
+  border: solid 1px #888;
+}
+.formInput:focus {
+  outline: none !important;
+}
+.genderLabel {
+  font-size: 12px;
+  border: solid 1px #888;
+  width: 60px;
+  text-align: center;
+  border-radius: 10px;
+}
+.updateButton {
+  background-color: #007bff;
+  color: #fff;
+  width: 100px;
+  padding: 6px 0;
+  text-align: center;
+  border-radius: 6px;
+}
+.cancelButton {
+  color: #888;
+  width: 100px;
+  padding: 6px 0;
+  text-align: center;
+  border-radius: 6px;
+  border: solid 1px #888;
+}
+/* .overlay {
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  min-width: 99vw;
+  z-index: 100;
+  background-color: #000;
+  overflow: hidden;
+  opacity: 0.94;
+} */
+.overlay {
+  min-height: 100vh;
+  position: relative;
+}
+.overlay:after {
+  content: " ";
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  min-width: 99vw;
+  z-index: 100;
+  background-color: #000;
+  overflow: hidden;
+  opacity: 0.94;
+}
+.popUpForm {
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 999;
+}
+.leftPanelTile {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 1px 5px 0px #888;
+  border-radius: 5px;
+}
+.table {
+  min-width: 100%;
+}
+.tableHeadingsRow {
+  background-color: #e0d6dd;
+  color: #000;
+  height: 50px;
+}
+.tableDataRow {
+  border-bottom: solid 1px #888;
+}
+.leftPanelTile {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 1px 5px 0px #888;
+  border-radius: 5px;
+  color: #000;
+  transition: all 0.3s ease;
+}
+.leftPanelTile:hover,
+.activeLeftPanelTile {
+  background-color: #875b7c !important;
+  color: #fff !important;
+}

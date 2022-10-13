@@ -1,0 +1,50 @@
+.loginMainContainer {
+  min-height: 100vh;
+  background-color: #f4f4f5;
+}
+.logoDiv {
+  position: absolute;
+  top: 50px;
+  left: 80px;
+}
+.loginContainer {
+  flex: 1;
+}
+.loginFormContainer {
+  box-shadow: 0px 2px 5px 0px #ccc;
+  border-radius: 40px;
+  background-color: #fff;
+  min-height: 540px;
+}
+.inputFieldDiv {
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+}
+.inputField {
+  min-width: 360px;
+  /* padding: 10px 10px;
+  border-radius: 5px; */
+  border: none;
+}
+.inputField:focus {
+  outline: none !important;
+}
+.loginButton {
+  min-width: 360px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+  background-color: #373633;
+  color: #fff;
+}
+.lostPasswordLabel {
+  font-size: 11px;
+  text-decoration: underline;
+  color: #000;
+  cursor: pointer;
+}
+.forgotPasswordHeading {
+  font-weight: 600;
+  color: #875b7c;
+}

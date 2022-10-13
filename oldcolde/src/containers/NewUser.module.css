@@ -1,0 +1,110 @@
+.addReportContainer {
+  min-height: 80vh;
+}
+.addReportFileDiv {
+  min-height: 150px;
+  min-width: 150px;
+  box-shadow: 0px 0px 5px 2px #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.addReportFileDiv,
+.addReportImage {
+  transition: all 0.5s ease;
+}
+.addReportFileDiv:hover {
+  background-color: #655360;
+}
+.addReportFileDiv:hover .addReportImage {
+  transform: scale(1.7);
+}
+.addSensorTitle {
+  font-size: 23px;
+  font-weight: 600;
+  color: #875b7c;
+}
+.navButtons {
+  font-size: 13px;
+  background-color: #fff;
+  color: #000;
+  width: 130px;
+  padding: 9px 0;
+  box-shadow: 0px 0px 5px 2px #ccc;
+  border-radius: 7px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.navButtons:hover {
+  background-color: #655360;
+  color: #fff;
+}
+.overlay {
+  min-height: 100vh;
+  position: fixed;
+  min-width: 99vw;
+  z-index: 1;
+}
+.overlay:after {
+  content: " ";
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  min-width: 99vw;
+  z-index: 100;
+  background-color: #000;
+  overflow: hidden;
+  opacity: 0.25;
+}
+.popUpForm {
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 999;
+  border-radius: 20px;
+  transform: translateY(-72px);
+  overflow: hidden;
+  min-width: 831px;
+}
+.iconImageDiv {
+  width: 90px;
+  height: 90px;
+  box-shadow: 0px 2px 5px 2px #ccc;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.iconImageDiv:hover {
+  background-color: #655360;
+}
+.popUpFormInputDiv {
+  border-radius: 10px;
+  border: solid 1px #888;
+  flex: 1;
+  padding: 6px 10px;
+}
+.popUpFormInput {
+  border: none;
+  flex: 1;
+}
+.popUpFormInput:focus {
+  outline: none;
+}
+.popUpFormLabel {
+  color: #875b7c;
+  width: 125px;
+}
+.popUpFormChooseSensorDiv {
+  box-shadow: 0px 2px 5px 0px #888;
+  border-radius: 10px;
+  width: 120px;
+  height: 120px;
+}
+.popUpFormChooseSensorDiv > label {
+  font-size: 10px;
+}
+.createReportButton {
+  font-size: 12px;
+  box-shadow: 0px 2px 5px 2px #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

@@ -1,0 +1,53 @@
+.navButtonsDiv {
+  height: 50px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 2px #ccc;
+  border-radius: 7px;
+  width: 100px;
+}
+.funcNavButtonsDiv {
+  height: 50px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 2px #ccc;
+  border-radius: 7px;
+  width: 100px;
+  padding: 0 5px;
+}
+
+.navButtons {
+  font-size: 10px;
+  font-weight: 600;
+
+  color: #000;
+  /* width: 130px; */
+  /* padding: 9px 0; */
+
+  transition: all 0.5s ease;
+  cursor: pointer;
+  line-height: 1.2;
+}
+.funcNavButtons {
+  font-size: 8px;
+  font-weight: 600;
+
+  color: #000;
+  /* width: 130px; */
+  /* padding: 9px 0; */
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.funcNavButtonsDiv:hover,
+.navButtonsDiv:hover {
+  background-color: #875b7c;
+}
+.funcNavButtonsDiv:hover .funcNavButtons,
+.navButtonsDiv:hover .navButtons {
+  color: #fff;
+}
+.activeButton {
+  background-color: #875b7c !important;
+  color: #fff !important;
+}
+.activeButtonLabel {
+  color: #fff !important;
+}

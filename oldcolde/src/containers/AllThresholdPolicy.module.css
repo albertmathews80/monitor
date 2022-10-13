@@ -1,0 +1,279 @@
+.addReportContainer {
+  /* min-height: 80vh; */
+}
+.addReportFileDiv {
+  min-height: 150px;
+  min-width: 150px;
+  box-shadow: 0px 0px 5px 2px #ccc;
+  border-radius: 10px;
+}
+.addReportFileDiv,
+.addReportImage {
+  transition: all 0.5s ease;
+}
+.addReportFileDiv:hover {
+  background-color: #655360;
+}
+.addReportFileDiv:hover .addReportImage {
+  transform: scale(1.7);
+}
+.sensorDiv {
+  border: solid 1px #888;
+  min-height: 136px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.sensorDiv:hover {
+  background-color: #655360;
+}
+.sensorDiv:hover .sensorTileLabel {
+  color: #fff;
+}
+.formDiv {
+  border: solid 1px #363532;
+  border-radius: 5px;
+  padding: 4px 4px 4px 10px;
+}
+.formInput {
+  flex: 1;
+  border: none;
+}
+.formInput:focus,
+.formSubmitButton:focus {
+  outline: none;
+}
+.formSubmitButton {
+  border: none;
+  background-color: #363532;
+  color: #fff;
+  width: 110px;
+  padding: 5px 0;
+  border-radius: 5px;
+}
+.addSensorButton {
+  border: solid 1px #888;
+  /* width: 213px; */
+  text-align: center;
+  height: 44px;
+  /* padding-top: 9px; */
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 12px;
+}
+.addSensorButton:hover {
+  background-color: #655360;
+  color: #fff;
+}
+.overlay {
+  min-height: 100vh;
+  position: fixed;
+  min-width: 99vw;
+  z-index: 1;
+}
+.overlay:after {
+  content: " ";
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  min-width: 99vw;
+  z-index: 100;
+  background-color: #000;
+  overflow: hidden;
+  opacity: 0.25;
+}
+.popUpForm {
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 999;
+  border-radius: 20px;
+  transform: translateY(-72px);
+  overflow: hidden;
+  min-width: 631px;
+}
+.iconImageDiv {
+  width: 90px;
+  height: 90px;
+  box-shadow: 0px 2px 5px 2px #ccc;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.iconImageDiv:hover {
+  background-color: #655360;
+}
+.popUpFormInput {
+  flex: 1 1;
+  border-radius: 10px;
+  border: solid 1px #888;
+  padding: 6px 10px;
+}
+.popUpFormInput:focus {
+  outline: none;
+}
+.popUpFormLabel {
+  color: #000;
+}
+.popUpFormChooseSensorDiv {
+  box-shadow: 0px 2px 5px 0px #888;
+  border-radius: 10px;
+  width: 120px;
+  height: 120px;
+}
+.popUpFormChooseSensorDiv > label {
+  font-size: 10px;
+}
+.createReportButton {
+  font-size: 12px;
+  box-shadow: 0px 2px 5px 2px #ccc;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.createReportButton:hover {
+  background-color: #7b5872;
+  color: #fff;
+}
+.popUpFormLabel {
+  width: 132px;
+  font-weight: 600;
+}
+.popUpFormInputDiv {
+  border-radius: 10px;
+  border: solid 1px #888;
+  flex: 1;
+  padding: 6px 10px;
+}
+.popUpFormInput {
+  border: none;
+  flex: 1;
+  background-color: transparent;
+}
+.popUpFormInput:focus,
+.selectVariable:focus {
+  outline: none;
+}
+.selectVariable {
+  border: none;
+  min-width: 100%;
+  background-color: transparent;
+}
+.thresholdFormSelectButtons {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px 0px #888;
+  width: 180px;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 3px;
+  font-size: 15px;
+}
+.thresholdFormSelectButtons:hover {
+  color: #fff;
+  background-color: #7b5872;
+}
+.valueFieldInput {
+  flex: 1 1 0%;
+  border: none;
+  padding: 6px 10px;
+  max-width: 100%;
+}
+
+.valueFieldInput:focus {
+  outline: none;
+}
+.thresholdFormAddToGroupButton {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px 0px #888;
+  width: 140px;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.addAnotherPolicyDiv {
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px 2px #ccc;
+  padding: 10px 8px;
+  height: 90px;
+}
+.sensorTileLabel {
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  font-weight: 600;
+}
+.sensorInfoPopupGroupIconDiv {
+  border: solid 1px #ccc;
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+}
+.sensorInfoPopupGroupIconLabel {
+  font-size: 12px;
+  font-weight: 600;
+}
+.thresholdPolicyDiv {
+  border: solid 1px #888;
+  padding: 9px 10px;
+  min-width: 210px;
+  border-radius: 5px;
+}
+.thresholdPolicyDiv:hover {
+  background-color: rgb(120, 87, 112);
+  color: #fff;
+}
+.chooseSensorDiv {
+  border: solid 1px #888;
+  padding: 5px 10px;
+  flex: 1;
+  /* text-align: center; */
+  border-radius: 7px;
+}
+.dataReportStartDateDiv {
+  transform: translateX(-10px);
+  flex: 1;
+}
+.customSelect {
+  position: relative;
+  min-width: 480px !important;
+  padding: 0 20px 0 0;
+  transform: translateX(10px);
+}
+
+.customSelect select,
+.customSelect::after {
+  height: 40px;
+}
+.customSelect select:focus {
+  outline: none;
+}
+.customSelect select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 0 10px;
+}
+.customSelect::after {
+  content: "\1F847" !important;
+  position: absolute !important;
+  top: 8px !important;
+  right: 33px !important;
+  padding: 0px 13px 18px 5px !important;
+  line-height: 21px !important;
+  border-radius: 50% !important;
+  height: 0px !important;
+  width: 0px !important;
+  transform: translateX(5px) !important;
+  font-size: 9px;
+}
+.solid::after {
+  color: #fff !important;
+  background: #373633 !important;
+}

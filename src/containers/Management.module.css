@@ -1,0 +1,101 @@
+.addReportContainer {
+  /* min-height: 80vh; */
+}
+.addReportFileDiv {
+  min-height: 150px;
+  min-width: 150px;
+  box-shadow: 0px 0px 5px 2px #ccc;
+  border-radius: 10px;
+}
+.addReportFileDiv,
+.addReportImage {
+  transition: all 0.5s ease;
+}
+.addReportFileDiv:hover {
+  background-color: #655360;
+}
+.addReportFileDiv:hover .addReportImage {
+  transform: scale(1.7);
+}
+.sensorDiv {
+  border: solid 1px #888;
+  min-height: 136px;
+  border-radius: 10px;
+}
+.table {
+  min-width: 100%;
+}
+.tableHeadingsRow {
+  background-color: #875b7c;
+  color: #fff;
+  height: 50px;
+}
+.tableDataRow {
+  border-bottom: solid 1px #888;
+}
+.userTypeTdDiv {
+  border: solid 1px #888;
+  /* max-width: 90px; */
+  width: 108px;
+  padding: 4px 3px;
+  margin: 3px 0;
+  background-color: #fff;
+}
+.userTypeTdLabel {
+  font-size: 13px;
+}
+.userTypeTdDiv > i {
+  color: #fff;
+  background-color: #000;
+  font-size: 7px;
+  padding: 4px 4px;
+  border-radius: 50%;
+  max-height: 14px;
+}
+.suspendTdLabel {
+  font-size: 10px;
+  font-weight: 600;
+  border: solid 1px #888;
+  padding: 4px 10px;
+  background-color: #fff;
+  width: 108px;
+  text-align: center;
+}
+.customSelect {
+  position: relative;
+  width: 128px !important;
+  padding: 0 0 0 0;
+  transform: translateX(10px);
+}
+
+.customSelect select,
+.customSelect::after {
+  height: 40px;
+}
+.customSelect select:focus {
+  outline: none;
+}
+.customSelect select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 0 10px;
+}
+.customSelect::after {
+  content: "\1F847" !important;
+  position: absolute !important;
+  top: 4px !important;
+  right: 20px !important;
+  padding: 0px 13px 18px 5px !important;
+  line-height: 21px !important;
+  border-radius: 50% !important;
+  height: 0px !important;
+  width: 0px !important;
+  transform: translateX(5px) !important;
+  font-size: 9px;
+}
+.solid::after {
+  color: #fff !important;
+  background: #373633 !important;
+}

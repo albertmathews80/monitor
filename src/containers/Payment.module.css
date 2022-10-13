@@ -1,0 +1,126 @@
+.addReportContainer {
+  /* min-height: 80vh; */
+}
+.addReportFileDiv {
+  min-height: 150px;
+  min-width: 150px;
+  box-shadow: 0px 0px 5px 2px #ccc;
+  border-radius: 10px;
+}
+.addReportFileDiv,
+.addReportImage {
+  transition: all 0.5s ease;
+}
+.addReportFileDiv:hover {
+  background-color: #655360;
+}
+.addReportFileDiv:hover .addReportImage {
+  transform: scale(1.7);
+}
+.sensorDiv {
+  border: solid 1px #888;
+  min-height: 136px;
+  border-radius: 10px;
+}
+.paymentsMainHeading {
+  text-align: center;
+  font-weight: 600;
+}
+.customSelect {
+  position: relative;
+  min-width: 100% !important;
+  padding: 0 20px 0 0;
+  /* transform: translateX(10px); */
+}
+
+.customSelect select,
+.customSelect::after {
+  height: 40px;
+}
+.customSelect select:focus {
+  outline: none;
+}
+.customSelect select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 0 10px;
+}
+.customSelect::after {
+  content: "\1F847" !important;
+  position: absolute !important;
+  top: 8px !important;
+  right: 33px !important;
+  padding: 0px 13px 18px 5px !important;
+  line-height: 21px !important;
+  border-radius: 50% !important;
+  height: 0px !important;
+  width: 0px !important;
+  transform: translateX(5px) !important;
+  font-size: 9px;
+}
+.solid::after {
+  color: #fff !important;
+  background: #373633 !important;
+}
+.paymentRightDiv {
+  min-width: 100%;
+  padding: 20px 20px;
+}
+.paymentDurationDiv {
+  /* min-width: 100px; */
+  min-height: 140px;
+  border: solid 1px #888;
+  border-radius: 5px;
+}
+.totalPaymentDiv {
+  border: solid 1px #888;
+  /* max-width: 450px; */
+  min-height: 90px;
+  border-radius: 5px;
+  background-color: #875b7c;
+  color: #fff;
+  margin: 0 20px 0 0;
+}
+.cardInfoMainDiv {
+  min-width: 330px;
+}
+.paymentAmount {
+  font-size: 50px;
+  font-weight: 600;
+}
+.cardDetailInputDiv {
+  border: solid 1px #888;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+.cardDetailInputDiv > input {
+  border: none;
+  flex: 1;
+}
+.cardDetailInputDiv > input:focus {
+  outline: none;
+}
+.monthYearInputDiv {
+  max-width: 90px;
+}
+.monthYearInputDiv > input {
+  max-width: 100%;
+}
+.rightDivAmountDiv {
+  flex: 1;
+  background-color: #875b7c;
+  border-radius: 5px;
+  min-height: 65px;
+}
+.rightDivAmountDiv > h3 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 600;
+}
+.rightDivAmountSecDiv {
+  flex: 1;
+  border: solid 1px;
+  border-radius: 5px;
+}

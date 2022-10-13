@@ -1,0 +1,9 @@
+.headerDiv {
+  background-color: #655360; /* For browsers that do not support gradients */
+  background-image: linear-gradient(
+    to right,
+    #fff 10%,
+    #655360 35%,
+    #875b7c 90%
+  );
+}

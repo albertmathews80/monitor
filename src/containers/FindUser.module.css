@@ -1,0 +1,45 @@
+.addReportContainer {
+  /* min-height: 80vh; */
+}
+.addReportFileDiv {
+  min-height: 150px;
+  min-width: 150px;
+  box-shadow: 0px 0px 5px 2px #ccc;
+  border-radius: 10px;
+}
+.addReportFileDiv,
+.addReportImage {
+  transition: all 0.5s ease;
+}
+.addReportFileDiv:hover {
+  background-color: #655360;
+}
+.addReportFileDiv:hover .addReportImage {
+  transform: scale(1.7);
+}
+.sensorDiv {
+  border: solid 1px #888;
+  min-height: 136px;
+  border-radius: 10px;
+}
+.formDiv {
+  border: solid 1px #363532;
+  border-radius: 5px;
+  padding: 4px 4px 4px 10px;
+}
+.formInput {
+  flex: 1;
+  border: none;
+}
+.formSubmitButton {
+  border: none;
+  background-color: #363532;
+  color: #fff;
+  width: 110px;
+  padding: 5px 0;
+  border-radius: 5px;
+}
+.formInput:focus,
+.formSubmitButton:focus {
+  outline: none;
+}

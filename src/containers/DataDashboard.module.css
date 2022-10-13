@@ -1,0 +1,157 @@
+.tile {
+  background-color: #fff;
+  /* padding: 30px 20px 10px 15px; */
+  width: 136px;
+  height: 131px;
+  box-shadow: 0px 0px 5px 2px #ccc;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.tileLabel {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+.tile:hover {
+  background-color: #655360;
+}
+.tile:hover .tileLabel {
+  color: #fff;
+}
+.tileImage {
+  transition: all 0.5s ease;
+}
+.tile:hover .tileImage {
+  transform: scale(1.3) !important;
+}
+.addReportContainer {
+  min-height: 80vh;
+}
+.addReportFileDiv {
+  min-height: 150px;
+  min-width: 150px;
+  box-shadow: 0px 0px 5px 2px #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.addReportFileDiv,
+.addReportImage {
+  transition: all 0.5s ease;
+}
+.addReportFileDiv:hover {
+  background-color: #655360;
+}
+.addReportFileDiv:hover .addReportImage {
+  transform: scale(1.7);
+}
+.addReportFileDiv:hover .addWidgetText {
+  color: #fff !important;
+  font-weight: 600;
+}
+.overlay {
+  min-height: 100vh;
+  position: fixed;
+  min-width: 99vw;
+  z-index: 1;
+}
+.overlay:after {
+  content: " ";
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  min-width: 99vw;
+  z-index: 100;
+  background-color: #000;
+  overflow: hidden;
+  opacity: 0.25;
+}
+.popUpForm {
+  /* height: 450px; */
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 999;
+  border-radius: 20px;
+  transform: translateY(-72px);
+  overflow: hidden;
+}
+.popUpFormAddButton {
+  border: none;
+  background-color: rgb(120, 87, 112);
+  color: #fff;
+  width: 90px;
+  padding: 1px 0;
+}
+.iconImageDiv {
+  width: 90px;
+  height: 90px;
+  border: solid 1px #888;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.iconImageDiv:hover {
+  background-color: #655360;
+}
+.iconImage {
+  transition: all 0.3s ease;
+  height: 45px;
+  width: 45px;
+}
+.iconImageDiv:hover .iconImage {
+  transform: scale(1.3);
+}
+.addWidghtModalSelectSensorLabel {
+  font-weight: 600;
+  font-size: 16px;
+}
+.addWidgetModalTileLabel {
+  color: #000;
+}
+.iconImageDiv:hover .addWidgetModalTileLabel {
+  color: #fff;
+}
+.customSelect {
+  position: relative;
+  min-width: 340px !important;
+  padding: 0 20px 0 0;
+  transform: translateX(10px);
+}
+
+.customSelect select,
+.customSelect::after {
+  height: 40px;
+}
+.customSelect select:focus {
+  outline: none;
+}
+.customSelect select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 0 10px;
+}
+.customSelect::after {
+  content: "\1F847" !important;
+  position: absolute !important;
+  top: 8px !important;
+  right: 33px !important;
+  padding: 0px 12px 18px 5px !important;
+  line-height: 21px !important;
+  border-radius: 50% !important;
+  height: 0px !important;
+  width: 0px !important;
+  transform: translateX(5px) !important;
+  font-size: 9px;
+}
+.solid::after {
+  color: #fff !important;
+  background: #373633 !important;
+}
+.thermometer > canvas {
+  /* max-height: 80%;
+  max-width: 95%; */
+  transform: translateX(-2.5%);
+}

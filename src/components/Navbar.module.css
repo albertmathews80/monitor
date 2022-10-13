@@ -1,0 +1,39 @@
+.userTitleDesc {
+  font-size: 10px;
+}
+.userAvatar {
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 50%;
+}
+.notificationDropdown {
+  background-color: #383734;
+  /* width: 150px; */
+  /* height: 120px; */
+  position: absolute;
+  z-index: 1;
+  left: -310px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 10px;
+  top: 30px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+.notificationDropdownTextDiv > p {
+  font-size: 10px;
+  color: #875b7c;
+  transition: all 0.3s ease;
+}
+.notificationDropdownIconDiv {
+  width: 40px;
+}
+.notificationDropDownMainDiv {
+  padding: 5px 15px;
+}
+.notificationListItem {
+  border-bottom: solid 1px #fff;
+}
+.notificationDropDownMainDiv:hover .notificationDropdownTextDiv > p {
+  color: #fff;
+}

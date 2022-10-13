@@ -1,0 +1,239 @@
+.addReportContainer {
+  padding: 10px 0;
+}
+.addReportFileDiv {
+  min-height: 150px;
+  min-width: 150px;
+  box-shadow: 0px 0px 5px 2px #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.addReportFileDiv,
+.addReportImage {
+  transition: all 0.5s ease;
+}
+.addReportFileDiv:hover {
+  background-color: #655360;
+}
+.addReportFileDiv:hover .addReportImage {
+  transform: scale(1.7);
+}
+.addReportFileDiv:hover .addWidgetText {
+  color: #fff !important;
+  font-weight: 600;
+}
+.overlay {
+  min-height: 100vh;
+  position: fixed;
+  min-width: 99vw;
+  z-index: 1;
+}
+.overlay:after {
+  content: " ";
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  min-width: 99vw;
+  z-index: 100;
+  background-color: #000;
+  overflow: hidden;
+  opacity: 0.25;
+}
+.popUpForm {
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 999;
+  border-radius: 20px;
+  transform: translateY(-72px);
+  overflow: hidden;
+  min-width: 631px;
+}
+.iconImageDiv {
+  width: 90px;
+  height: 90px;
+  box-shadow: 0px 2px 5px 2px #ccc;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.iconImageDiv:hover {
+  background-color: #655360;
+}
+.popUpFormInput {
+  flex: 1 1;
+  border-radius: 10px;
+  border: solid 1px #888;
+  padding: 6px 10px;
+  max-width: 463px;
+}
+.popUpFormInput:focus {
+  outline: none;
+}
+.popUpFormLabel {
+  color: #000;
+  width: 96px;
+}
+.popUpFormChooseSensorDiv {
+  box-shadow: 0px 2px 5px 0px #888;
+  border-radius: 10px;
+  width: 120px;
+  height: 120px;
+}
+.popUpFormChooseSensorDiv > label {
+  font-size: 10px;
+}
+.createReportButton {
+  font-size: 12px;
+  box-shadow: 0px 2px 5px 2px #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.createReportButton:hover {
+  background-color: rgb(120, 87, 112);
+  color: #fff;
+  cursor: pointer;
+}
+.reportTileMainDiv {
+  width: 15vw;
+  height: 15vw;
+  border: solid 1px #ccc;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.reportTileMainDiv:hover {
+  background-color: rgb(120, 87, 112) !important;
+}
+.reportTileLabel {
+  transition: all 0.3s ease;
+}
+.reportTileMainDiv:hover .reportTileLabel {
+  color: #fff;
+}
+.strainTile {
+  box-shadow: 0px 2px 5px 0px #ccc;
+  border-radius: 10px;
+  /* padding: 20px 7px; */
+  width: 80px;
+  height: 80px;
+}
+.strainTileText {
+  font-size: 9px;
+}
+.chooseSensorTile {
+  box-shadow: 0px 2px 5px 0px #ccc;
+  border-radius: 10px;
+  /* padding: 20px 7px; */
+  width: 100px;
+  height: 100px;
+}
+.strainLabel {
+  color: #000;
+  width: 96px;
+}
+.dataReportStartDateDiv {
+  transform: translateX(-10px);
+  flex: 1;
+}
+.dataReportStartDateLabel {
+  border: solid 1px #888;
+  width: 240px;
+  text-align: center;
+  padding: 3px 0;
+  border-radius: 5px;
+}
+.formDiv {
+  border: solid 1px #363532;
+  border-radius: 5px;
+  padding: 4px 4px 4px 10px;
+}
+.formInput {
+  flex: 1;
+  border: none;
+}
+.formInput:focus,
+.formSubmitButton:focus {
+  outline: none;
+}
+.formSubmitButton {
+  border: none;
+  background-color: #363532;
+  color: #fff;
+  width: 110px;
+  padding: 5px 0;
+  border-radius: 5px;
+}
+.addSensorButton {
+  flex: 1.02;
+  border: solid 1px #888;
+  /* width: 173px; */
+  text-align: center;
+  height: 44px;
+  padding-top: 9px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+}
+.addSensorButton:hover {
+  background-color: #655360;
+  color: #fff;
+}
+.chooseSensorDiv {
+  border: solid 1px #888;
+  padding: 5px 10px;
+  flex: 1;
+  /* text-align: center; */
+  border-radius: 7px;
+}
+.customSelect {
+  position: relative;
+  min-width: 480px !important;
+  padding: 0 20px 0 0;
+  transform: translateX(10px);
+}
+
+.customSelect select,
+.customSelect::after {
+  height: 40px;
+}
+.customSelect select:focus {
+  outline: none;
+}
+.customSelect select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 0 10px;
+}
+.customSelect::after {
+  content: "\1F83B" !important;
+  position: absolute !important;
+  top: 8px !important;
+  right: 33px !important;
+  padding: 0px 18px 20px 2px !important;
+  line-height: 21px !important;
+  border-radius: 50% !important;
+  height: 12px !important;
+  width: 12px !important;
+  transform: translateX(5px) !important;
+  font-size: 26px;
+}
+.solid::after {
+  color: #fff !important;
+  background: #373633 !important;
+}
+.userLevelLabel {
+  min-width: 70px;
+  text-align: center;
+  border: solid 1px #888;
+  padding: 1px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.activeUserLevel,
+.userLevelLabel:hover {
+  background-color: rgb(120, 87, 112) !important;
+  color: #fff !important;
+}

@@ -1,0 +1,260 @@
+.tile {
+  background-color: #fff;
+  /* padding: 30px 20px 10px 15px; */
+  min-width: 106px;
+  height: 101px;
+  box-shadow: 0px 0px 5px 2px #ccc;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.tileLabel {
+  font-size: 11px;
+  font-weight: 600;
+  color: #000;
+  max-width: 85px;
+  text-align: center;
+  line-height: 1;
+  height: 10px;
+}
+.accountTileLabel {
+  font-size: 11px;
+  font-weight: 600;
+  color: #000;
+  max-width: 99px;
+  text-align: center;
+  line-height: 1;
+  height: 10px;
+}
+.accountTileLabel1 {
+  font-size: 11px;
+  font-weight: 600;
+  color: #000;
+  max-width: 78px;
+  text-align: center;
+  line-height: 1;
+  height: 10px;
+}
+.tile:hover {
+  background-color: #655360;
+  color: #fff;
+}
+.tile:hover .tileLabel,
+.tile:hover .accountTileLabel,
+.tile:hover .accountTileLabel1 {
+  color: #fff;
+}
+.tileImage {
+  transition: all 0.5s ease;
+  height: 37px;
+  width: 37px;
+}
+.tile:hover .tileImage {
+  transform: scale(1.3) !important;
+}
+.popUpFormLabel {
+  color: #000;
+  width: 125px;
+}
+.popUpFormInputDiv {
+  border-radius: 10px;
+  border: solid 1px #888;
+  flex: 1;
+  padding: 6px 10px;
+}
+.popUpFormInput {
+  border: none;
+  flex: 1;
+  background-color: transparent;
+}
+.popUpFormInput:focus,
+.selectVariable:focus {
+  outline: none;
+}
+.createReportButton {
+  font-size: 12px;
+  box-shadow: 0px 2px 5px 2px #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.selectVariable {
+  border: none;
+  min-width: 100%;
+  background-color: transparent;
+}
+.chooseSensorTile {
+  box-shadow: 0px 2px 5px 0px #ccc;
+  border-radius: 10px;
+  /* padding: 20px 7px; */
+  width: 100px;
+  height: 100px;
+}
+.chooseSensorTileText {
+  font-size: 9px;
+}
+.datePicker {
+  color: #fff;
+  padding: 0 0 0 20px;
+  background-color: #373633;
+  border-radius: 15px;
+}
+.datePicker:focus {
+  outline: none !important;
+}
+.datePicker::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url(./arrowIcon.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+  transform: translateY(5px);
+}
+.customSelect {
+  position: relative;
+  min-width: 186px;
+  transform: translateX(10px);
+}
+
+.customSelect select,
+.customSelect::after {
+  height: 40px;
+}
+.customSelect select:focus {
+  outline: none;
+}
+.customSelect select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 0 10px;
+}
+.customSelect::after {
+  content: "\1F847" !important;
+  position: absolute !important;
+  top: 8px !important;
+  right: 33px !important;
+  padding: 0px 13px 18px 5px !important;
+  line-height: 21px !important;
+  border-radius: 50% !important;
+  height: 0px !important;
+  width: 0px !important;
+  transform: translateX(5px) !important;
+  font-size: 9px;
+}
+.solid::after {
+  color: #373633 !important;
+  background: #fff !important;
+}
+.popUpForm {
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 999;
+  border-radius: 20px;
+  transform: translateY(-72px);
+  overflow: hidden;
+  min-width: 631px;
+}
+.dataReportStartDateDiv {
+  transform: translateX(-10px);
+  flex: 1;
+}
+.chooseSensorDiv {
+  border: solid 1px #888;
+  padding: 5px 10px;
+  flex: 1;
+  /* text-align: center; */
+  border-radius: 7px;
+}
+.valueFieldInput {
+  flex: 1 1 0%;
+  border: none;
+  padding: 6px 10px;
+  max-width: 100%;
+}
+
+.valueFieldInput:focus {
+  outline: none;
+}
+.customSelect1 {
+  position: relative;
+  min-width: 480px !important;
+  padding: 0 20px 0 0;
+  transform: translateX(10px);
+}
+
+.customSelect1 select,
+.customSelect1::after {
+  height: 40px;
+}
+.customSelect1 select:focus {
+  outline: none;
+}
+.customSelect1 select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 0 10px;
+}
+.customSelect1::after {
+  content: "\1F847" !important;
+  position: absolute !important;
+  top: 8px !important;
+  right: 33px !important;
+  padding: 0px 13px 18px 5px !important;
+  line-height: 21px !important;
+  border-radius: 50% !important;
+  height: 0px !important;
+  width: 0px !important;
+  transform: translateX(5px) !important;
+  font-size: 9px;
+}
+.solid1::after {
+  color: #fff !important;
+  background: #373633 !important;
+}
+.popUpFormInput1 {
+  flex: 1 1;
+  border-radius: 5px;
+  border: solid 1px #888;
+  padding: 6px 10px;
+  max-width: 475px;
+}
+.popUpFormInput1:focus {
+  outline: none;
+}
+.thresholdPolicyDiv {
+  border: solid 1px #888;
+  padding: 9px 10px;
+  min-width: 210px;
+  border-radius: 5px;
+}
+.thresholdPolicyDiv:hover {
+  background-color: rgb(120, 87, 112);
+  color: #fff;
+}
+.popUpFormInput2 {
+  flex: 1 1;
+  border-radius: 10px;
+  border: solid 1px #888;
+  padding: 6px 10px;
+  max-width: 463px;
+}
+.userLevelLabel {
+  min-width: 70px;
+  text-align: center;
+  border: solid 1px #888;
+  padding: 1px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.activeUserLevel,
+.userLevelLabel:hover {
+  background-color: rgb(120, 87, 112) !important;
+  color: #fff !important;
+}
